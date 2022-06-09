@@ -1,0 +1,52 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.contact{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.contact-form{
+    width: 44%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: #00D5FF;
+    border-radius: 15px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(61, 61, 112);
+}
+
+    
